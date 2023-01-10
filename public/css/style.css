@@ -1,0 +1,148 @@
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    min-height:100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid  #ccc;
+}
+
+#navbar img{
+
+    width: 40px;
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size:14px;
+    color:#757575;
+}
+
+#navbar a:hover{
+    color: #F2A340;
+}
+
+#logar-sistema{
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 5px;
+
+    width: 100%;
+    background-image:url("../img/homeoffice.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 30px;
+}
+#texto{
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+}
+h1{
+    color: black;
+}
+#email{
+    width: 100%;
+}
+
+#senha{
+    width: 100%;
+}
+
+#atestados{
+    text-align: center;
+}
+
+#entrar{
+    text-align: center;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 25%;
+}
+#btn-entrar {
+    color: rgb(250, 250, 250);
+    background-color: rgb(25, 97, 25);
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+   
+}
+
+#btn-cadastrar{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: #F2A340;
+}
+
+
+/*#logar-sistema :hover{
+    color: #757575;
+    width: 100%;
+}*/
+
+#event-create-container{
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select{
+    font-size: 12px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container #event-submit{
+    margin: 20px 0;
+}
+
+#info-container{
+    margin-top: 30px;
+    
+}
+
+#btn-form{
+    margin-top: 10px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #40135a;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+margin-bottom: 0;
+}
